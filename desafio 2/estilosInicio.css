@@ -1,0 +1,90 @@
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  /*html, body{
+    height: 100%;
+    background-color: #000;
+  }*/
+
+  .imagenBody{
+
+    font-family: 'Lato', sans-serif;
+    background-image: url('https://underarmour.scene7.com/is/image/Underarmour/SS19_CURRY6_006_TAB_BAKED?scl=1');
+    background-position: center top;
+    background-size: cover;
+    margin: 0;
+    padding: 50px 50px;
+  }
+
+  .contenedor{
+    height: 49%;
+    background-color: #6A737C;
+    margin: 1% 1%;
+  }
+
+
+
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+
+
+.wrapper {
+  /*padding: 5px;*/
+  max-width: 960px;
+  width: 95%;
+  margin: 20px auto;
+}
+header {
+  padding: 0 15px;
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
+  /*margin: 5px 0;*/
+}
+
+.column1 {
+  flex: 1;
+  border: 1px solid gray;
+  /*margin: 1px;*/
+  padding: 25%;
+  padding-left: 54%;
+  padding-bottom: 25%;
+  background-image: url('https://pbs.twimg.com/media/DQ4_5FCVAAEOzGE.jpg');
+}
+
+.column2 {
+  text-align: center;
+  align-items: center;
+  padding-top: 15%;
+
+}
+}
+
+
